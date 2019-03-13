@@ -6,7 +6,7 @@ script to install jenkins and the spring-boot-hello-world server
 ```bash
 #git clone https://github.com/bob-crutchley/spring-installer-example
 git clone https://github.com/ajb1234/spring-installer
-cd spring-installer-example
+cd spring-installer
 ```
 
 ### run the install scripts
