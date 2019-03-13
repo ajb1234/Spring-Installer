@@ -1,6 +1,10 @@
-#install.sh
+#!/bin/bash
+
 
 #CREATE USER SPRING
+# - make sure the user has a home folder (-m)
+# - set the default shell to bash (-s)
+# - this is only because sh isnt as easy to use as bash ie (-s)
 
 sudo useradd -m -s /bin/bash spring
 
@@ -20,6 +24,6 @@ sudo apt install -y git
 sudo apt install -y maven
 
 
-#COPY SPRING
+#INSTALL THE SOURCE SCRIPT
 
 sudo cp spring.service /etc/systemd/system
