@@ -27,3 +27,7 @@ sudo apt install -y maven
 #INSTALL THE SOURCE SCRIPT
 
 sudo cp spring.service /etc/systemd/system
+
+#RELOAD ALL OF THE SYSTEMD SCRIPTS
+
+sudo systemctl daemon-reload
